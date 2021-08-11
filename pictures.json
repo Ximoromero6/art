@@ -1,0 +1,130 @@
+{
+    "0": {
+        "id": "0",
+        "name": "Starry Night",
+        "author": "Vincent Van Gogh",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "1": {
+        "id": "1",
+        "name": "Girl with a Pearl Earring",
+        "author": "Johannes Vermeer",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "2": {
+        "id": "2",
+        "name": "Guernica",
+        "author": "Pablo Picasso",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "3": {
+        "id": "3",
+        "name": "Penitent Magdalene",
+        "author": "Artemisia Gentileschi",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "4": {
+        "id": "4",
+        "name": "The Storm on the Sea of Galilee",
+        "author": "Rembrandt",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "5": {
+        "id": "5",
+        "name": "The Great Wave off Kanagawa",
+        "author": "Hokusai",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "6": {
+        "id": "6",
+        "name": "Van Gogh self-portrait",
+        "author": "Vincent Van Gogh",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "7": {
+        "id": "7",
+        "name": "The Sleeping Gypsy",
+        "author": "Henri Rosseau",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "8": {
+        "id": "8",
+        "name": "Lady with an Ermin",
+        "author": "Leonardo da Vinci",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "9": {
+        "id": "9",
+        "name": "The Night Café",
+        "author": "Vincent Van Gogh",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "10": {
+        "id": "10",
+        "name": "The Basket of Apples",
+        "author": "Paul Cézanne",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "11": {
+        "id": "11",
+        "name": "The Boy in the Red Vest",
+        "author": "Edward Hopper",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "12": {
+        "id": "12",
+        "name": "Arnolfini Portrait",
+        "author": "Jan van Eyck",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "13": {
+        "id": "13",
+        "name": "Mona Lisa",
+        "author": "Leonardo da Vinci",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "14": {
+        "id": "14",
+        "name": "The Swing",
+        "author": "Jean-Honoré Fragonard",
+        "year": "",
+        "description": "",
+        "image": ""
+    },
+    "15": {
+        "id": "15",
+        "name": "The Bedroom",
+        "author": "Vincent Van Gogh",
+        "year": "",
+        "description": "",
+        "image": ""
+    }
+}
