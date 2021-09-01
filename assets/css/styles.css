@@ -432,4 +432,106 @@ main#main .container .picture.is-loaded {
     grid-column: 1;
   }
 }
+
+main#main .container_picture {
+  max-width: 1400px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 75vh;
+}
+
+main#main .container_picture .left_section {
+  width: 100%;
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+main#main .container_picture .left_section img.picture_photo {
+  max-width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+main#main .container_picture .left_section .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px;
+  position: absolute;
+  right: 45px;
+  background-color: #fff;
+}
+
+main#main .container_picture .left_section .information h2.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+main#main .container_picture .left_section .information p.author {
+  margin-top: 15px;
+  color: #444;
+}
+
+main#main .container_picture .left_section img.author_photo {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  justify-self: flex-end;
+  display: block;
+  position: absolute;
+  bottom: -60px;
+  right: 100px;
+}
+
+main#main .container_picture .right_section {
+  width: 100%;
+  max-width: 40%;
+  position: relative;
+}
+
+main#main .container_picture .right_section h3.year {
+  font-size: 200px;
+  color: #eee;
+  position: absolute;
+  right: 20px;
+  top: -5px;
+  z-index: -1;
+}
+
+main#main .container_picture .right_section p.description {
+  padding: 170px 100px 120px 100px;
+  font-weight: bold;
+  color: #b3b2b2;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+main#main .container_picture .right_section a.source {
+  font-weight: bold;
+  color: #666;
+  font-size: 13px;
+  position: absolute;
+  left: 100px;
+  bottom: -10px;
+}
 /*# sourceMappingURL=styles.css.map */

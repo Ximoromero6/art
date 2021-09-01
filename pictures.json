@@ -3,17 +3,19 @@
         "id": "0",
         "name": "Starry Night",
         "author": "Vincent Van Gogh",
-        "year": "",
-        "description": "",
-        "image": ""
+        "year": "1889",
+        "description": "La noche estrellada es un óleo sobre lienzo del pintor posimpresionista neerlandés Vincent van Gogh. Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación de asilo en Saint-Rémy-de-Provence, justo antes del amanecer, con la adición de un pueblo imaginario. Ha estado en la colección permanente del Museo de Arte Moderno de la ciudad de Nueva York desde 1941, adquirida a través de Lillie P. Bliss Bequest. Ampliamente considerada como la obra maestra de Van Gogh, La noche estrellada es una de las pinturas más reconocidas en la historia de la cultura occidental.",
+        "image": "assets/images/starray_night.jpg",
+        "author_image": "assets/images/van_gogh.jpg"
     },
     "1": {
         "id": "1",
         "name": "Girl with a Pearl Earring",
         "author": "Johannes Vermeer",
-        "year": "",
-        "description": "",
-        "image": ""
+        "year": "1665",
+        "description": "La joven de la perla (en neerlandés Het meisje met de parel), también conocida como Muchacha con turbante, es una de las obras maestras del pintor neerlandés Johannes Vermeer realizada entre 1665 y 1667. Como el nombre indica, utiliza un pendiente de perla como punto focal. La pintura se encuentra actualmente en el museo Mauritshuis de La Haya.",
+        "image": "assets/images/",
+        "author_image": "assets/images/vermeer.jpeg"
     },
     "2": {
         "id": "2",
@@ -21,7 +23,8 @@
         "author": "Pablo Picasso",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "3": {
         "id": "3",
@@ -29,7 +32,8 @@
         "author": "Artemisia Gentileschi",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "4": {
         "id": "4",
@@ -37,7 +41,8 @@
         "author": "Rembrandt",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "5": {
         "id": "5",
@@ -45,7 +50,8 @@
         "author": "Hokusai",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "6": {
         "id": "6",
@@ -53,7 +59,8 @@
         "author": "Vincent Van Gogh",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/van_gogh.jpg"
     },
     "7": {
         "id": "7",
@@ -61,7 +68,8 @@
         "author": "Henri Rosseau",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "8": {
         "id": "8",
@@ -69,7 +77,8 @@
         "author": "Leonardo da Vinci",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/da_vinci.jpg"
     },
     "9": {
         "id": "9",
@@ -77,7 +86,8 @@
         "author": "Vincent Van Gogh",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/van_gogh.jpg"
     },
     "10": {
         "id": "10",
@@ -85,7 +95,8 @@
         "author": "Paul Cézanne",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "11": {
         "id": "11",
@@ -93,7 +104,8 @@
         "author": "Edward Hopper",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "12": {
         "id": "12",
@@ -101,7 +113,8 @@
         "author": "Jan van Eyck",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "13": {
         "id": "13",
@@ -109,7 +122,8 @@
         "author": "Leonardo da Vinci",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/da_vinci.jpg"
     },
     "14": {
         "id": "14",
@@ -117,7 +131,8 @@
         "author": "Jean-Honoré Fragonard",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/"
     },
     "15": {
         "id": "15",
@@ -125,6 +140,7 @@
         "author": "Vincent Van Gogh",
         "year": "",
         "description": "",
-        "image": ""
+        "image": "assets/images/",
+        "author_image": "assets/images/van_gogh.jpg"
     }
 }
