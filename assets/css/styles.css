@@ -132,34 +132,34 @@ main#main .container .picture:hover::after {
 }
 
 main#main .container .picture:nth-child(1) {
-  background-image: url("../images/starray_night-small.jpg");
+  background-image: url("../images/starray_night-small.webp");
 }
 
 main#main .container .picture:nth-child(2) {
-  background-image: url("../images/Girl_With_The_Pearl_Earring-small.jpg");
+  background-image: url("../images/Girl_With_The_Pearl_Earring-small.webp");
 }
 
 main#main .container .picture:nth-child(3) {
-  background-image: url("../images/gernika-small.jpg");
+  background-image: url("../images/gernika-small.webp");
 }
 
 main#main .container .picture:nth-child(4) {
-  background-image: url("../images/penitent-small.jpg");
+  background-image: url("../images/penitent-small.webp");
 }
 
 main#main .container .picture:nth-child(5) {
-  background-image: url("../images/storm-small.jpg");
+  background-image: url("../images/storm-small.webp");
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
 }
 
 main#main .container .picture:nth-child(6) {
-  background-image: url("../images/great_wave-small.jpg");
+  background-image: url("../images/great_wave-small.webp");
 }
 
 main#main .container .picture:nth-child(7) {
-  background-image: url("../images/self_portrait-small.jpg");
+  background-image: url("../images/self_portrait-small.webp");
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -168,31 +168,31 @@ main#main .container .picture:nth-child(7) {
 }
 
 main#main .container .picture:nth-child(8) {
-  background-image: url("../images/sleepy-small.jpg");
+  background-image: url("../images/sleepy-small.webp");
 }
 
 main#main .container .picture:nth-child(9) {
-  background-image: url("../images/ermine-small.jpg");
+  background-image: url("../images/ermine-small.webp");
 }
 
 main#main .container .picture:nth-child(10) {
-  background-image: url("../images/night_cafe-small.jpg");
+  background-image: url("../images/night_cafe-small.webp");
 }
 
 main#main .container .picture:nth-child(11) {
-  background-image: url("../images/basket-small.jpg");
+  background-image: url("../images/basket-small.webp");
 }
 
 main#main .container .picture:nth-child(12) {
-  background-image: url("../images/boy_vest-small.jpg");
+  background-image: url("../images/boy_vest-small.webp");
 }
 
 main#main .container .picture:nth-child(13) {
-  background-image: url("../images/arnolfini-small.jpg");
+  background-image: url("../images/arnolfini-small.webp");
 }
 
 main#main .container .picture:nth-child(14) {
-  background-image: url("../images/mona_lisa-small.jpg");
+  background-image: url("../images/mona_lisa-small.webp");
   -ms-grid-row: 4;
   -ms-grid-row-span: 2;
   grid-row: 4/6;
@@ -201,11 +201,11 @@ main#main .container .picture:nth-child(14) {
 }
 
 main#main .container .picture:nth-child(15) {
-  background-image: url("../images/swing-small.jpg");
+  background-image: url("../images/swing-small.webp");
 }
 
 main#main .container .picture:nth-child(16) {
-  background-image: url("../images/bedroom-small.jpg");
+  background-image: url("../images/bedroom-small.webp");
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
@@ -225,7 +225,7 @@ main#main .container .picture.is-loaded {
         grid-template-rows: repeat(7, minmax(250px, auto));
   }
   main#main .container .picture:nth-child(4) {
-    background-image: url(../images/penitent-small.jpg);
+    background-image: url(../images/penitent-small.webp);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -447,7 +447,8 @@ main#main .container_picture {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 75vh;
+  height: 70vh;
+  /* MEDIA QUERIES */
 }
 
 main#main .container_picture .left_section {
@@ -464,7 +465,6 @@ main#main .container_picture .left_section img.picture_photo {
   max-width: 70%;
   -o-object-fit: cover;
      object-fit: cover;
-  cursor: pointer;
 }
 
 main#main .container_picture .left_section .information {
@@ -510,16 +510,16 @@ main#main .container_picture .right_section {
 }
 
 main#main .container_picture .right_section h3.year {
-  font-size: 200px;
+  font-size: 170px;
   color: #eee;
   position: absolute;
-  right: 20px;
-  top: -5px;
+  right: 120px;
+  top: -40px;
   z-index: -1;
 }
 
 main#main .container_picture .right_section p.description {
-  padding: 170px 100px 120px 100px;
+  padding: 110px 60px 120px 50px;
   font-weight: bold;
   color: #b3b2b2;
   letter-spacing: 1px;
@@ -533,5 +533,85 @@ main#main .container_picture .right_section a.source {
   position: absolute;
   left: 100px;
   bottom: -10px;
+}
+
+@media (min-width: 1550px) {
+  main#main .container_picture {
+    height: 75vh;
+  }
+  main#main .container_picture .right_section h3.year {
+    font-size: 200px;
+    right: 20px;
+    top: -5px;
+  }
+  main#main .container_picture .right_section p.description {
+    padding: 170px 100px 120px 100px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  main#main .container_picture {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main#main .container_picture .left_section {
+    max-width: none;
+  }
+  main#main .container_picture .left_section img.author_photo {
+    bottom: 160px;
+    right: 130px;
+  }
+  main#main .container_picture .right_section {
+    max-width: none;
+  }
+  main#main .container_picture .right_section p.description {
+    padding: 110px 160px 120px 160px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  main#main .container_picture {
+    padding: 0 15px;
+  }
+  main#main .container_picture .left_section img.picture_photo {
+    max-width: 100%;
+  }
+  main#main .container_picture .left_section .information {
+    padding: 20px 30px;
+    right: initial;
+    bottom: -50px;
+    width: 85%;
+  }
+  main#main .container_picture .left_section .information h2.title {
+    font-size: 30px;
+  }
+  main#main .container_picture .left_section .information p.author {
+    margin-top: 5px;
+  }
+  main#main .container_picture .left_section img.author_photo {
+    bottom: -150px;
+    right: 294px;
+    width: 90px;
+    height: 90px;
+  }
+  main#main .container_picture .right_section h3.year {
+    right: 0;
+    top: 110px;
+    font-size: 100px;
+  }
+  main#main .container_picture .right_section p.description {
+    padding: 0;
+    padding-top: 200px;
+  }
+  main#main .container_picture .right_section a.source {
+    left: 0;
+    bottom: -20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

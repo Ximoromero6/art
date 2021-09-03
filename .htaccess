@@ -1,0 +1,24 @@
+ErrorDocument 404 /es/error
+Options -Indexes
+
+# Activar RewriteEngine
+RewriteBase /art/
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} /+[^.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([a-zA-Z0-9-]*)/?$ index.php?page=$1 [L,QSA]
+
+#Caché y demás
+SetOutputFilter DEFLATE
+Header unset ETag
+FileETag None
+<FilesMatch "\.(js|css|ico|pdf|jpg|jpeg|png|gif)$">
+Header set Cache-Control "public"
+Header set Expires "Thu, 15 Apr 2022 20:00:00 GMT"
+Header unset Last-Modified
+</FilesMatch>

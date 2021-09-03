@@ -114,74 +114,74 @@ main#main {
             }
 
             &:nth-child(1) {
-                background-image: url("../images/starray_night-small.jpg");
+                background-image: url("../images/starray_night-small.webp");
             }
 
             &:nth-child(2) {
-                background-image: url("../images/Girl_With_The_Pearl_Earring-small.jpg");
+                background-image: url("../images/Girl_With_The_Pearl_Earring-small.webp");
             }
 
             &:nth-child(3) {
-                background-image: url("../images/gernika-small.jpg");
+                background-image: url("../images/gernika-small.webp");
             }
 
             &:nth-child(4) {
-                background-image: url("../images/penitent-small.jpg");
+                background-image: url("../images/penitent-small.webp");
             }
 
             &:nth-child(5) {
-                background-image: url("../images/storm-small.jpg");
+                background-image: url("../images/storm-small.webp");
                 grid-row: 2/4;
             }
 
             &:nth-child(6) {
-                background-image: url("../images/great_wave-small.jpg");
+                background-image: url("../images/great_wave-small.webp");
             }
 
             &:nth-child(7) {
-                background-image: url("../images/self_portrait-small.jpg");
+                background-image: url("../images/self_portrait-small.webp");
                 grid-row: 2/4;
                 grid-column: 3;
             }
 
             &:nth-child(8) {
-                background-image: url("../images/sleepy-small.jpg");
+                background-image: url("../images/sleepy-small.webp");
             }
 
             &:nth-child(9) {
-                background-image: url("../images/ermine-small.jpg");
+                background-image: url("../images/ermine-small.webp");
             }
 
             &:nth-child(10) {
-                background-image: url("../images/night_cafe-small.jpg");
+                background-image: url("../images/night_cafe-small.webp");
             }
 
             &:nth-child(11) {
-                background-image: url("../images/basket-small.jpg");
+                background-image: url("../images/basket-small.webp");
             }
 
             &:nth-child(12) {
-                background-image: url("../images/boy_vest-small.jpg");
+                background-image: url("../images/boy_vest-small.webp");
             }
 
             &:nth-child(13) {
-                background-image: url("../images/arnolfini-small.jpg");
+                background-image: url("../images/arnolfini-small.webp");
 
             }
 
             &:nth-child(14) {
-                background-image: url("../images/mona_lisa-small.jpg");
+                background-image: url("../images/mona_lisa-small.webp");
                 grid-row: 4/6;
                 grid-column: 4;
             }
 
 
             &:nth-child(15) {
-                background-image: url("../images/swing-small.jpg");
+                background-image: url("../images/swing-small.webp");
             }
 
             &:nth-child(16) {
-                background-image: url("../images/bedroom-small.jpg");
+                background-image: url("../images/bedroom-small.webp");
                 grid-column: 2/4;
             }
 
@@ -197,7 +197,7 @@ main#main {
 
             .picture {
                 &:nth-child(4) {
-                    background-image: url(../images/penitent-small.jpg);
+                    background-image: url(../images/penitent-small.webp);
                     grid-column: 1/2;
                     grid-row: 6;
                 }
@@ -386,7 +386,7 @@ main#main {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        height: 75vh;
+        height: 70vh;
 
         .left_section {
             width: 100%;
@@ -398,7 +398,6 @@ main#main {
             img.picture_photo {
                 max-width: 70%;
                 object-fit: cover;
-                cursor: pointer;
             }
 
             .information {
@@ -439,16 +438,16 @@ main#main {
             position: relative;
 
             h3.year {
-                font-size: 200px;
+                font-size: 170px;
                 color: #eee;
                 position: absolute;
-                right: 20px;
-                top: -5px;
+                right: 120px;
+                top: -40px;
                 z-index: -1;
             }
 
             p.description {
-                padding: 170px 100px 120px 100px;
+                padding: 110px 60px 120px 50px;
                 font-weight: bold;
                 color: #b3b2b2;
                 letter-spacing: 1px;
@@ -464,5 +463,104 @@ main#main {
                 bottom: -10px;
             }
         }
+
+        /* MEDIA QUERIES */
+
+        @media (min-width: 1550px) {
+            height: 75vh;
+
+            .right_section {
+                h3.year {
+                    font-size: 200px;
+                    right: 20px;
+                    top: -5px;
+                }
+
+                p.description {
+                    padding: 170px 100px 120px 100px;
+                }
+            }
+        }
+
+        // Large devices (desktops, less than 1200px)
+        @media (max-width: 1199.98px) {
+            height: auto;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .left_section {
+                max-width: none;
+
+                img.author_photo {
+                    bottom: 160px;
+                    right: 130px;
+                }
+            }
+
+            .right_section {
+                max-width: none;
+
+                p.description {
+                    padding: 110px 160px 120px 160px;
+                }
+            }
+        }
+
+        // Medium devices (tablets, less than 992px)
+        @media (max-width: 991.98px) {}
+
+        // Small devices (landscape phones, less than 768px)
+        @media (max-width: 767.98px) {
+            padding: 0 15px;
+
+            .left_section {
+                img.picture_photo {
+                    max-width: 100%;
+                }
+
+                .information {
+                    padding: 20px 30px;
+                    right: initial;
+                    bottom: -50px;
+                    width: 85%;
+
+                    h2.title {
+                        font-size: 30px;
+                    }
+
+                    p.author {
+                        margin-top: 5px;
+                    }
+                }
+
+                img.author_photo {
+                    bottom: -150px;
+                    right: 294px;
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+
+            .right_section {
+                h3.year {
+                    right: 0;
+                    top: 110px;
+                    font-size: 100px;
+                }
+
+                p.description {
+                    padding: 0;
+                    padding-top: 200px;
+                }
+
+                a.source {
+                    left: 0;
+                    bottom: -20px;
+                }
+            }
+        }
+
+        //Extra small devices (iPhone)
+        @media (max-width: 575.98px) {}
     }
 }
